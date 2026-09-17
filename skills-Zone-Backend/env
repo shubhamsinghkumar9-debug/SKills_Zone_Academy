@@ -1,0 +1,22 @@
+MONGO_URI=mongodb+srv://ss3884288:ss3884288@cluster0.lb5ytwr.mongodb.net/sheryians?appName=Cluster0
+# ─── JWT ───────────────────────────────────────────────
+JWT_SECRET_KEY=sheryians-super-secret-jwt-key-change-in-production-2024
+JWT_ACCESS_TOKEN_EXPIRES_HOURS=24
+JWT_REFRESH_TOKEN_EXPIRES_DAYS=30
+
+# ─── Flask ─────────────────────────────────────────────
+FLASK_ENV=development
+FLASK_DEBUG=1
+SECRET_KEY=sheryians-flask-secret-key-change-in-production
+
+# ─── Email (Gmail SMTP) ────────────────────────────────
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+MAIL_USERNAME=ehosa976@gmail.com
+MAIL_PASSWORD=vqwk hihr ztqm rmey
+MAIL_DEFAULT_SENDER=ehosa976@gmail.com
+ADMIN_EMAIL=ehosa976@gmail.com
+
+# ─── Frontend ──────────────────────────────────────────
+FRONTEND_URL=http://localhost:5173
