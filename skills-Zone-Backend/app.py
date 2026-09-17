@@ -16,7 +16,7 @@ def create_app(config_class=Config):
 
     # ── CORS ────────────────────────────────────────────────────────
     CORS(app,
-         origins=[app.config.get("FRONTEND_URL", "http://localhost:5173"), "http://localhost:3000","https://skill-zone-academy.vercel.app/"],
+         origins=[app.config.get("FRONTEND_URL", "http://localhost:5173"), "http://localhost:3000","https://skill-zone-academy.vercel.app"],
          supports_credentials=True,
          allow_headers=["Content-Type", "Authorization"],
          methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
