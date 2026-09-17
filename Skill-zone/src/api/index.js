@@ -1,6 +1,6 @@
 // src/api/index.js — All backend API calls (fully DB-backed)
 
-const BASE = import.meta.env.VITE_API_URL || '/api'
+const BASE = import.meta.env.VITE_API_URL || "https://skills-zone-academy-3.onrender.com/api" // /api
 
 // ── Token helpers ──────────────────────────────────────────────
 const getToken   = () => localStorage.getItem('access_token')
