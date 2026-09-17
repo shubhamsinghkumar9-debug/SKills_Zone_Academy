@@ -1,4 +1,4 @@
-MONGO_URI=mongodb+srv://ss3884288:ss3884288@cluster0.lb5ytwr.mongodb.net/sheryians?appName=Cluster0
+MONGO_URI=mongodb+srv://shubhamsinghkumar9_db_user:VlvE1g6MySLS4jw2@cluster0.wstv4fo.mongodb.net/?appName=Cluster0
 # ─── JWT ───────────────────────────────────────────────
 JWT_SECRET_KEY=sheryians-super-secret-jwt-key-change-in-production-2024
 JWT_ACCESS_TOKEN_EXPIRES_HOURS=24

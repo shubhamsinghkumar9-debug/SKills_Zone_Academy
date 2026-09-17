@@ -64,8 +64,6 @@ echo -e "${GREEN}  ✅ Backend dependencies installed${NC}"
 
 # ── Seed ──────────────────────────────────────────────────────
 echo -e "${YELLOW}[3/4] Running seed...${NC}"
-python seeds/seed_admin.py 2>/dev/null && echo -e "${GREEN}  ✅ Admin seeded${NC}" || echo "  ℹ  Admin seed skipped"
-python seeds/seed_courses.py 2>/dev/null && echo -e "${GREEN}  ✅ Courses seeded${NC}" || echo "  ℹ  Courses seed skipped"
 
 # ── Start both servers ────────────────────────────────────────
 echo -e "${YELLOW}[4/4] Starting servers...${NC}"
