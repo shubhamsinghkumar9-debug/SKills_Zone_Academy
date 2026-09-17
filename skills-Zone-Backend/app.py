@@ -50,7 +50,7 @@ def create_app(config_class=Config):
     # ── Health check ─────────────────────────────────────────────────
     @app.get("/api/health")
     def health():
-        return jsonify({"status": "ok", "service": "Sheryians API"})
+        return jsonify({"status": "ok", "service": "Skill_Zone API"})
 
     # ── 404 / 405 handlers ───────────────────────────────────────────
     @app.errorhandler(404)
